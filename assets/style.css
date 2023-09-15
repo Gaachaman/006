@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-top{
+    /* background-color: #8c8c8c; */
+    background-color: white;
+    width: 100%;
+    height: 56px;
+    /* padding: 10px 0; */
+    /* font-size: 24px; */
+    border-bottom: solid 1px black;
+}
+
+.header-top img{
+    height: 50px;
+    margin-left: 15px;
+}
+
+.header-bottom{
+    /* background-color: #a5a5a5; */
+    background-color: white;
+    width: 100vw;
+    padding: 5px 0;
+    font-size: 24px;
+    border-bottom: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-bottom a span{
+    /* display: inline-block; */
+    font-size: 30px;
+    background: url(https://niigata-kankou.or.jp/reserve) no-repeat 5px center;
+
+}
+
+.header-bottom a{
+    color: black;
+    text-decoration: none
+}
+
+.top{
+    padding-top: 112px;
+}
+
+.topics{
+    width: 90%;
+    margin: 40px auto;
+}
+
+.topic{
+    background-color: #d8d8d8;
+    margin: 50px;
+}
+
+.topic-top{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.topic-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description-left{
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+
+.description-right{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.description-right p{
+    font-size: 24px;
+    /* padding: 40px ; */
+}
+
+/* .topic2 p{
+    margin-top: auto;
+} */
+
+/* .btn{
+ width: 100%;
+} */
+
+.btn{
+    text-align: right;
+}
+
+.btn button{
+    font-size: 18px;
+    background-color: #ec6d00;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 10px;
+}
+
+/* .news{
+    background-color: #bfbfbf;
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.news1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+
+} */
+
+footer{
+    width: 100vw;
+}
+
+.footer-top{
+    background-color: #a5a5a5;
+    width: 100vw;
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom{
+    /* background-color: #8c8c8c; */
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* .footer-bottom img{
+    height: 50px;
+    margin-left: 15px;
+} */

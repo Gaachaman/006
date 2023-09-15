@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+}
+
+.header-top{
+    /* background-color: #8c8c8c; */
+    background-color: white;
+    width: 100%;
+    height: 56px;
+    /* padding: 10px 0; */
+    /* font-size: 24px; */
+    border-bottom: solid 1px black;
+}
+
+.header-top img{
+    height: 50px;
+    margin-left: 15px;
+}
+
+.header-middle{
+    /* background-color: #a5a5a5; */
+    width: 100%;
+    font-size: 50px;
+    /* height: 100px; */
+    /* margin-top: 10px; */
+    /* padding: 30px; */
+    text-align: center;
+    background-image: url("./assets/img/新潟平野.jpg");
+}
+
+.header-bottom{
+    /* background-color: #bfbfbf; */
+    border: solid 1px black;
+    width: 100%;
+}
+
+.topics{
+    width: 90%;
+    margin: 40px auto;
+}
+
+.topic{
+    background-color: #d8d8d8;
+    margin: 50px;
+}
+
+.topic-top{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.topic-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description-left{
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+
+.description-right{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.description-right p{
+    font-size: 24px;
+    /* padding: 40px ; */
+}
+
+.link{
+ width: 90%;
+ margin: 20px 0;
+}
+
+footer{
+    width: 100vw;
+}
+
+.footer-top{
+    background-color: #a5a5a5;
+    width: 100vw;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.footer-bottom{
+    /* background-color: #8c8c8c; */
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.footer-bottom{
+    text-align: center;
+}
+
+/* .footer-bottom img{
+    height: 50px;
+    margin-left: 15px;
+} */
+
